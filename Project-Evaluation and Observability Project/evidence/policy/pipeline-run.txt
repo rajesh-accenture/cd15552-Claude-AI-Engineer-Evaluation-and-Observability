@@ -1,0 +1,59 @@
+2026-11-24 04:44:41,803 WARNING Anthropic: ANTHROPIC_API_KEY and ANTHROPIC_AUTH_TOKEN are both set. Using ANTHROPIC_API_KEY.
+2026-11-24 04:44:45,570 INFO HTTP Request: POST https://claude.vocareum.com/v1/messages "HTTP/1.1 200 OK"
+2026-11-24 04:44:52,313 INFO HTTP Request: POST https://claude.vocareum.com/v1/messages "HTTP/1.1 200 OK"
+2026-11-24 04:44:52,315 INFO review_disagreement policy_id=POL-2025-001 fields=['coverage_limit']
+2026-11-24 04:44:54,556 INFO HTTP Request: POST https://claude.vocareum.com/v1/messages "HTTP/1.1 200 OK"
+2026-11-24 04:45:00,504 INFO HTTP Request: POST https://claude.vocareum.com/v1/messages "HTTP/1.1 200 OK"
+2026-11-24 04:45:00,505 INFO review_disagreement policy_id=POL-2025-002 fields=['deductible', 'coverage_limit']
+2026-11-24 04:45:02,689 INFO HTTP Request: POST https://claude.vocareum.com/v1/messages "HTTP/1.1 200 OK"
+2026-11-24 04:45:07,904 INFO HTTP Request: POST https://claude.vocareum.com/v1/messages "HTTP/1.1 200 OK"
+2026-11-24 04:45:07,906 INFO review_disagreement policy_id=POL-2025-003 fields=['coverage_limit']
+2026-11-24 04:45:10,976 INFO HTTP Request: POST https://claude.vocareum.com/v1/messages "HTTP/1.1 200 OK"
+2026-11-24 04:45:16,257 INFO HTTP Request: POST https://claude.vocareum.com/v1/messages "HTTP/1.1 200 OK"
+2026-11-24 04:45:16,258 INFO review_disagreement policy_id=POL-2025-004 fields=['deductible']
+2026-11-24 04:45:18,611 INFO HTTP Request: POST https://claude.vocareum.com/v1/messages "HTTP/1.1 200 OK"
+2026-11-24 04:45:23,302 INFO HTTP Request: POST https://claude.vocareum.com/v1/messages "HTTP/1.1 200 OK"
+2026-11-24 04:45:23,303 INFO review_disagreement policy_id=POL-2025-005 fields=['deductible']
+2026-11-24 04:45:26,540 INFO HTTP Request: POST https://claude.vocareum.com/v1/messages "HTTP/1.1 200 OK"
+2026-11-24 04:45:32,217 INFO HTTP Request: POST https://claude.vocareum.com/v1/messages "HTTP/1.1 200 OK"
+2026-11-24 04:45:32,218 INFO review_disagreement policy_id=POL-2025-006 fields=['deductible']
+2026-11-24 04:45:35,506 INFO HTTP Request: POST https://claude.vocareum.com/v1/messages "HTTP/1.1 200 OK"
+2026-11-24 04:45:41,215 INFO HTTP Request: POST https://claude.vocareum.com/v1/messages "HTTP/1.1 200 OK"
+2026-11-24 04:45:41,216 INFO review_disagreement policy_id=POL-2025-007 fields=['deductible']
+2026-11-24 04:45:44,576 INFO HTTP Request: POST https://claude.vocareum.com/v1/messages "HTTP/1.1 200 OK"
+2026-11-24 04:45:49,169 INFO HTTP Request: POST https://claude.vocareum.com/v1/messages "HTTP/1.1 200 OK"
+2026-11-24 04:45:49,171 INFO review_disagreement policy_id=POL-2025-008 fields=['policy_type']
+2026-11-24 04:45:51,611 INFO HTTP Request: POST https://claude.vocareum.com/v1/messages "HTTP/1.1 200 OK"
+2026-11-24 04:45:51,612 INFO validation_failed
+2026-11-24 04:45:55,712 INFO HTTP Request: POST https://claude.vocareum.com/v1/messages "HTTP/1.1 200 OK"
+2026-11-24 04:45:55,713 INFO validation_failed
+2026-11-24 04:45:57,806 INFO HTTP Request: POST https://claude.vocareum.com/v1/messages "HTTP/1.1 200 OK"
+2026-11-24 04:46:00,780 INFO HTTP Request: POST https://claude.vocareum.com/v1/messages "HTTP/1.1 200 OK"
+{
+  "decisions_written": 9,
+  "auto_approve": 0,
+  "human_review": 8,
+  "spot_check": 1,
+  "escalations": 1,
+  "pattern_summary": {
+    "endorsements_absent": {
+      "count": 1,
+      "policies": [
+        "POL-2025-009"
+      ],
+      "categories": [
+        "missing_source"
+      ]
+    },
+    "premium_does_not_match_components": {
+      "count": 1,
+      "policies": [
+        "POL-2025-010"
+      ],
+      "categories": [
+        "consistency"
+      ]
+    }
+  },
+  "output_path": "/voc/work/cd15552-Claude-AI-Engineer-Evaluation-and-Observability/Project-Evaluation and Observability Project/evidence/policy/routing_decisions.json"
+}
