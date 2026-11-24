@@ -73,8 +73,9 @@
     "integration_failures": [],
     "policy_id": "POL-2025-005",
     "policy_type": "home",
-    "reason": "fields_below_threshold=['endorsements']; reviewer_disagreement=['endorsements']",
+    "reason": "fields_below_threshold=['endorsements']; reviewer_disagreement=['deductible', 'endorsements']",
     "reviewer_disagreements": [
+      "deductible",
       "endorsements"
     ]
   },
@@ -118,12 +119,12 @@
   },
   {
     "confidence_summary": {
-      "coverage_limit": 0.95,
-      "deductible": 0.95,
-      "endorsements": 0.9,
+      "coverage_limit": 0.98,
+      "deductible": 0.98,
+      "endorsements": 0.92,
       "exclusions": 0.95,
       "policy_type": 0.95,
-      "premium_amount": 0.95
+      "premium_amount": 0.98
     },
     "decision": "human_review",
     "fields_below_threshold": [],
@@ -142,16 +143,14 @@
       "endorsements": 0.95,
       "exclusions": 0.99,
       "policy_type": 0.99,
-      "premium_amount": 0.9
+      "premium_amount": 0.99
     },
-    "decision": "human_review",
+    "decision": "spot_check",
     "fields_below_threshold": [],
     "integration_failures": [],
     "policy_id": "POL-2025-010",
     "policy_type": "home",
-    "reason": "reviewer_disagreement=['premium_amount']",
-    "reviewer_disagreements": [
-      "premium_amount"
-    ]
+    "reason": "stratified drift-detection sample",
+    "reviewer_disagreements": []
   }
 ]
