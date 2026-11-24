@@ -1,0 +1,5 @@
+]633;E;. /etc/os-release;65893749-b595-48b9-b12b-a363f0ce7053]633;COS: Ubuntu 20.04.6 LTS
+Mortgage Python: Python 3.11.18
+Policy Python: Python 3.11.18
+Supply-chain Python: Python 3.11.18
+Setup: Installed CPython 3.11 with uv; created a separate .venv311 and installed .[dev] in each project.
