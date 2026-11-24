@@ -1,1 +1,1 @@
-bash: mypy: command not found
+Success: no issues found in 11 source files
